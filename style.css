@@ -8,15 +8,17 @@ html {
 }
 
 .container {
+  padding-top: 20px;
   display: flex;
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  
+  height: 95vh;
 }
+
 .bg-video {
   object-fit: cover; /* Ensure the video fills its container */
   width: auto;
-  height: 100vh;
+  height: 95vh;
 }
 
