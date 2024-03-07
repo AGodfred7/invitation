@@ -12,11 +12,11 @@ html {
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  
 }
 .bg-video {
   object-fit: cover; /* Ensure the video fills its container */
   width: auto;
   height: 100vh;
-  
 }
 
