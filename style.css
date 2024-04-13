@@ -1,22 +1,21 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
   font-family: 'honey mustard';
   background: #ffffff;
   color: #e6c068; /* Set text color to white */
 }
 
 .container {
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   overflow: hidden;
   justify-content: center;
   align-items: center;
   height: 95vh;
-  background-image: url("./passport.mp4");
 }
-.bg-video {
+.container img {
   object-fit: cover; /* Ensure the video fills its container */
   width: auto;
   height: 95vh;
